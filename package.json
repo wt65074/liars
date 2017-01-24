@@ -1,0 +1,22 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "tests for a restful api using node.js",
+  "main": "index.js",
+  "engines": {
+    "node": "7.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Will Tobey",
+  "license": "ISC",
+  "dependencies": {
+    "apn": "^2.1.2",
+    "bluebird": "^3.4.7",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.6",
+    "restify": "^4.3.0"
+  }
+}
